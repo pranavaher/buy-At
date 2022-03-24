@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: url("../../images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,20 +12,27 @@
   color: white;
 }
 
-.banner > h1 {
-  margin: 5vmax;
-
+.banner > p {
   font: 600 2.5vmax "Roboto";
+  display: inline-block;
+  background-image: linear-gradient(to right, #f02517, #e97a72);
+  background-clip: text;
+  color: transparent;
 }
 
-.banner > p {
-  font: 300 1.4vmax "Lucida Sans";
+.banner > h1 {
+  margin: 5vmax;
+  font: 600 2.5vmax "Roboto";
+  display: inline-block;
+  background-image: linear-gradient(to right, #f02517, #e97a72);
+  background-clip: text;
+  color: transparent;
 }
 
 .banner > a > button {
   margin-bottom: 5vmax;
   cursor: pointer;
-  background-color: white;
+  background-color: #ec574c;
   border: 1px solid white;
   border-radius: 0;
   padding: 1vmax;
@@ -35,7 +42,7 @@
 }
 .banner > a > button:hover {
   background-color: rgba(255, 255, 255, 0);
-  color: white;
+  color: #ec574c;
 }
 
 .banner::after {
@@ -58,7 +65,7 @@
   width: 20vmax;
   padding: 1vmax;
   margin: 5vmax auto;
-  color: rgb(0, 0, 0, 0.7);
+  color: #f15145;
 }
 
 .container {
